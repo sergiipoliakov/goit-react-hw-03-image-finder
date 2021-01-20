@@ -22,7 +22,7 @@ export default class App extends Component {
   componentDidUpdate(prevProps, prevState) {
     const prevQuery = prevState.searchQuery;
     const nextQuery = this.state.searchQuery;
-    const prevPage = prevState.page;
+    // const prevPage = prevState.page;
     const nextPage = this.state.page;
 
     if (prevQuery !== nextQuery) {
